@@ -7,6 +7,10 @@ In my case the speaker is connected via 3.5mm Audio Jack
 
 # Installation instructions:
 1. Copy this git to your desired location
+2. Make clock.sh and test.sh executable:
+
+sudo chmod +x /home/pi/big-ben/clock.sh && sudo chmod +x /home/pi/big-ben/test.sh
+
 2. Update the system:
 
 sudo apt-get update && sudo apt-get upgrade -y
