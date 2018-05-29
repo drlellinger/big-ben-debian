@@ -18,3 +18,12 @@ sudo apt-get install mplayer
 4. Edit your crontab and paste the following: (you can change some variables if you want to)
 
 0,15,30,45 * * * * bash /home/pi/big-ben/clock.sh
+
+# Bonus:
+1. If you want to, you can modify your .bashrc to force the bell-ringing:
+
+alias bigben='bash /home/pi/big-ben/test.sh'
+
+2. You can also set this file as an alarm clock by editing your crontab: (please note that the earlier you set your alarm the shorter the be alarm will be)
+
+42 5 * * 1-5 bash /home/pi/big-ben/clock.sh
