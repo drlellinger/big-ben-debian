@@ -17,7 +17,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 3. Install all needed utils and their dependencies:
 
-sudo apt-get install mplayer2
+sudo apt-get install mplayer
 
 4. Edit your crontab and paste the following: (you can change some variables if you want to)
 
